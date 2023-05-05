@@ -180,13 +180,14 @@ h1{
 
 }
 .first_s{
-    padding-bottom: 12.5%;
+    padding-bottom: 5%;
 }
 .item1{
     width: 25%;
     box-shadow: 1px 1px 7px var(--white);
     min-height: 80vh;
     display: grid;
+    margin-bottom: 5%;
     
 }
 .item1 img:nth-child(1){
@@ -236,4 +237,81 @@ h1{
 }
 
 /* end second_s */
+/* section start */
+.section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--grey);
+    padding: 0 5%;
+}
+.left_h{
+    width: 65%;
+}
+.right_block {
+    color: var(--white);
+    margin-top: 5%;
+}
+.small_block {
+    display: flex;
+    align-items: flex-start;
+    box-shadow: 1px 1px 5px var(--white);
+    margin-bottom: 10%;
+    padding: 4% 5%;
+}
+.small_block img{
+    width: 10%;
+    padding: 2% 5% 0px 4%;
+}
 
+.mini{
+    width: 6% !important;
+
+}
+
+
+/* section end */
+
+
+/*main cards */
+
+.main-cards {
+    background-color: var(--grey);
+}
+.main-cards p{
+    padding: 0;
+}
+.main-cards h1{
+    font-size: 80px;
+    color: var(--white);
+}
+.cards {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+.first-card {
+    width: 30%;
+    box-shadow: 1px 1px 5px var(--white);
+    display: flex;
+    flex-direction: column;
+    color: var(--white) !important;
+}
+.first-card h2{
+    padding: 2% 0;
+}
+.text_card{
+    padding: 2% 5%;
+}
+.text_card p:nth-child(2){
+    padding: 3% 0;
+}
+.text_card a{
+    display: flex;
+    padding: 3% 0;
+}
+.text_card p:last-child{
+    padding: 1px 0 0 2%;
+}
+
+/* end main cards */
