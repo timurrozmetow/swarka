@@ -288,7 +288,7 @@ h1{
 .cards {
     display: flex;
     justify-content: space-between;
-    padding: 0 5%;
+    padding: 0 5% 5%;
 }
 .first-card {
     width: 30%;
@@ -313,5 +313,153 @@ h1{
 .text_card p:last-child{
     padding: 1px 0 0 2%;
 }
-
+.link{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+.link a{
+    padding: 1% 3%;
+}
 /* end main cards */
+
+
+/* slider */
+
+.slider{
+    padding: 0 5% 5%;
+    text-align: center;
+    display: flex;
+}
+.first_slider{
+    margin-right: 5%;
+    padding: 1%;
+    /* height: 30vh; */
+    width: 20%;
+    color: var(--white);
+    box-shadow: 1px 1px 5px var(--white);
+}
+.first_slider h4{
+    padding: 5% 0;
+    font-size: 24px;
+}
+.first_slider img{
+    padding: 8% 0 0 0;
+    width: 30%;
+}
+.margin0{
+    margin: 0;
+}
+.bigger{
+    width: 40%;
+}
+
+/* end */
+
+
+/* post */
+
+.post{
+    color: var(--white);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--grey);
+    padding:  0  0 5%;
+}
+.post_text{
+    font-size: 25px;
+}
+.input_btn{
+    border: none;
+    background-color: var(--orange);
+    color: var(--white);
+    font-size: 25px;
+    padding: 2% 10%;
+    border-radius: 10px;
+}
+form{
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+}
+
+.min_wdt{
+    min-width: 30%;
+}
+
+.input_gm{
+    margin: 0 5% 0 0;
+    padding: 3%;
+    border-radius: 10px;
+    border: 1px solid var(--grey);
+
+}
+::placeholder{
+    font-family: 'teko';
+    font-size: 22px;
+    display: flex;
+}
+/* end post */
+
+
+/* footer */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--grey);
+    padding: 0 5% 3%;
+}
+.first_sector{
+    margin-right: 3%;
+}
+.first_sector h3{
+    padding-bottom: 10%;
+    color: var(--white);
+    font-size: 25px;
+}
+.first_sector p{
+    font-family: 'roboto';
+}
+.first_sector ul li{
+    padding-bottom: 4%;
+
+}
+
+.end_of{
+    margin-right: 0;
+}
+
+/* end footer */
+
+
+/* endddd */
+.end_footer{
+    background-color: var(--grey);
+    padding: 0 5% 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--white);
+}
+.end_footer h5{
+    
+    display: flex;
+    font-size: 35px;
+}
+/*  */
+
+
+
+
+
+/* active */
+
+.input_gm:focus{
+    box-shadow: 1px 1px 20px var(--light);
+    border: 1px solid var(--white);
+    outline: none;
+
+}
