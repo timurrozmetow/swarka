@@ -18,6 +18,7 @@ a{
          url('../fonts/roboto-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 
 }
 @font-face {
@@ -26,6 +27,7 @@ a{
          url('../fonts/teko-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 .menu{
     cursor: pointer;
