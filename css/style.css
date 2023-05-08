@@ -51,8 +51,8 @@ a{
 #nav-icon2 span {
   display: block;
   position: absolute;
-  height: 4px;
-  width: 50%;
+  height: 6px;
+  width: 51%;
   background: white ;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
@@ -102,7 +102,7 @@ a{
 }
 
 #nav-icon2.open span:nth-child(1) {
-  left: 9px;
+  left: 4px;
   top: 7px;
 }
 
@@ -122,13 +122,12 @@ a{
 }
 
 #nav-icon2.open span:nth-child(5) {
-  left: 8px;
-  top: 22px;
+    left: 5px;
+    top: 17px;
 }
-
 #nav-icon2.open span:nth-child(6) {
   left: calc(50% - 1px);
-  top: 22px;
+  top: 18px;
 }   
 /* end hamburger */
 .menu{
@@ -570,6 +569,10 @@ footer{
 }
 
 @media (max-width:393px) {
+    
+    header{
+        min-height: 15vh;
+    }
     header ul li, .icons, .button{
         display: none;
     }
@@ -578,6 +581,7 @@ footer{
     }
     .center{
         font-size: 18px;
+        margin: 0 6%;
     }
     .sector h1{
         font-size: 30px;
@@ -669,5 +673,27 @@ footer{
     }
     .end_footer p:nth-child(2){
         font-size: 12px;
+    }
+
+    /* end */
+    .main-cards p:nth-child(3){
+        margin: 0 15%;
+    }
+    /* main */
+    .left{
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        padding: 0% 0 0 5%;
+    }
+    .left h5{
+        margin: 0;
+        font-size: 20px;
+    }
+    .left p{
+        margin: 0 0 4% ;
+    }
+    .done img{
+        width: 15%;
     }
 }
