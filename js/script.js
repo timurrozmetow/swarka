@@ -1,6 +1,6 @@
-const left = document.querySelector('.left'),
-      menu =document.querySelector('.menu');
-
-menu.addEventListener('click' , ()=>{
-    left.classList.toggle('none');
-});
+const nav= document.getElementById('nav-icon2'),
+      ul = document.getElementById('ulMobile');
+nav.addEventListener('click', () =>{
+    nav.classList.toggle('open');
+    ul.classList.toggle('none');
+})
