@@ -32,6 +32,7 @@ a{
 
 /* hamburger */
 #nav-icon2{
+    display: none;
     /* margin-right: 3%; */
     width:30px;
     height: 40px;
@@ -294,7 +295,7 @@ h1{
     
 }
 .item1 img:nth-child(1){
-    width: 100%;
+    width: 80%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -328,7 +329,7 @@ h1{
 /* small */
 
 .small{
-    width: 90% !important;
+    width: 90% ;
     
 }
 /*  */
@@ -433,6 +434,7 @@ h1{
     padding: 0 5% 5%;
     text-align: center;
     display: flex;
+    align-items: center;
 }
 .first_slider{
     margin-right: 5%;
@@ -571,6 +573,9 @@ footer{
     header ul li, .icons, .button{
         display: none;
     }
+    #nav-icon2{
+        display: block;
+    }
     .center{
         font-size: 18px;
     }
@@ -586,19 +591,63 @@ footer{
     .first_s, .second_s , .section, .cards, .slider, .post, footer{ 
         flex-direction: column;
     }
+    .item1 h4{
+        padding: 0;
+        font-size: 24px;
+    }
+    .item1{
+        min-height: 60vh;
+    }
+    .first_s{
+        padding: 0;
+    }
     .left_h,.first-card ,.item1, .min_wdt{
         width: 100%;
     }
+    .item1{
+        width: 70%;
+        padding: 0 5%;
+    }
+    .item1 p{
+        font-size: 14px;
+    }
+    .price img{
+        padding: 3% 15%;
+    }
+    .small_block{
+        margin-bottom: 5%;
+    }
     .first-card, .first_slider{
-        margin: 5% 0;
+        margin: 2% 0;
         width: 100%;
     }
+    .first-card img{
+        width: 100%;
+    }
+    .first_slider{
+        padding: 4% 0;
+        margin: 5% 0;
+        width: 90%;
+    }
+    .first_slider img{
+        width: 20%;
+        padding: 0;
+    }
+
     .main-cards h1{
         font-size: 34px;
+    }
+    .cards{
+        padding: 0 5% 0;
     }
     .post{
         padding: 3% ;
     }
+    .first_s, .second_s{
+        align-items: center;
+    }
+    .item1 img:nth-child(1) {
+        width: 80%;}
     .post p, .post h2{
         margin: 5%;
     }
@@ -609,14 +658,14 @@ footer{
         margin: 0 2% 0 0;
     }
     form{
-        justify-content: space-evenly;
+        justify-content: center;
     }
     footer{
         padding: 5%;
         align-items: baseline;
     }
     .end_footer h5 {
-        font-size: 25px;
+        font-size: 30px;
     }
     .end_footer p:nth-child(2){
         font-size: 12px;
